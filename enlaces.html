@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="enlaces" class="py-3">
+                    <h2 class="text-center">ENLACES</h2>
+                    <p>
+                        Los enlaces se realizan con la etiqueta <span class="etiqueta">a</span> e indicamos donde viajar en el atributo <span class="etiqueta" style="color: green;">href</span>
+                    </p>
+                    <p><strong>Enlace a una página nuestra</strong>
+                    </p>
+                    <p>
+                        <a href="http://127.0.0.1:5500/index.html" style="color: lightblue; text-decoration: underline;">ir a home</a>
+                    </p>
+                    <p>
+                        <strong>Enlace a una página de internet</strong>
+                    </p>
+                    <P>
+                        <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" style="color: lightblue; text-decoration: underline;">Wikipedia</a>
+                    </P>
+                    <p>
+                        <strong>Enlace a una página de internet desde una imagen</strong>
+                    </p>
+                    <p>
+                        <a href="https://www.educa.jccm.es/alumnado/es/papas" target="_blank">
+                            <img src="img/papaaaaap.jpeg">   
+                        </a>
+                    </p>
+                    <p>
+                        <strong>Enlace a una página en una nueva pestaña</strong>
+                    </p>
+                    <p>
+                        <a href="https://www.google.es/maps/place/Toledo/@39.8622679,-4.0406294,13z/data=!3m1!4b1!4m6!3m5!1s0xd6a0bad0bb5fdf1:0xc67f5be86a75adfe!8m2!3d39.8628316!4d-4.0273231!16s%2Fg%2F11dym8yk47?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color: lightblue;text-decoration: underline;">ir a toledo</a>
+                        Lo hemos realizado con el atributo <span class="etiqueta" style="color: green;">target</span> con el valero <span class="etiqueta" style="color: green;">_blank</span>
+                    </p>
+                    <p>
+                        <strong>Enlace a una dirección de correo</strong>
+                    </p>
+                    <p>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwdPPQhZwlCcVGLDrPZLRPMBCKHpSPsfqqCRCZfdHHzZwwspdkFRvnhDdlhBqXdsJWsTL" style="color: lightblue; text-decoration: underline;">enviar correo</a>
+                    </p>
+                    <p>
+                        <strong>Enlace a una ejecutar un programa javaescript </strong>
+                    </p>
+                    <p>
+                        <a href="javascript:alert('Hola titi')" style="color: lightblue; text-decoration: underline;">click me</a>
+                    </p>
+                    <p>
+                        <strong>Descargar plano de Toledo</strong>
+                    </p>
+                    <p>
+                        <a href="https://turismo.toledo.es/downloads/descargas/56/mapa-de-toledo-en-espanol.pdf" target="_blank" style="color: lightblue; text-decoration: underline;">Descargar plano</a>
+                    </p>
+                    <p>
+                        <h3>Enlace de marcador: Sirve para posicionarse en un lugar concreto de la web.</h3>
+                    <a href="#top"><img src="img/flechaar.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Paco Pulido</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.etiqueta {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+#listas .customdes li {
+    list-style-type: square;
+}
+#listas .customdes li li {
+    list-style-type: disc;
+}
+
+#listas .customdes li li li {
+    list-style-type: circle;
+}
+#listas .customor li {
+    list-style-type: upper-roman;
+}
+#listas .customor li li {
+    list-style-type: upper-alpha;
+}
+#listas .customor li li li {
+    list-style-type: decimal;
+}
+#listas .customdesicon li li {
+    list-style-image: url(../img/corazon.png);
+}
+#listas .customdesicon li li li {
+    list-style-image: none;
+    list-style-type: circle;
+}
+
+#listas .listasdf dt {
+    display: inline;
+    background-color: aquamarine;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.striped tr:nth-child(odd) {
+    background-color: yellow;
+}
+.striped tr:nth-child(even) {
+    background-color: red;
+}
+.tre {
+    background-color: black;
+    color: white;
+}
+.horario {
+    width: 80%;
+    margin: 0 auto;
+}
+.horario .bdd {
+    background-color: #81ff81;
+}
+.horario .prog {
+    background-color: #64b4ef;
+}
+.horario .sasp {
+    background-color: #28c8c8;
+}
+.horario .dasp {
+    background-color: #ffff63;
+}
+.horario .ipe {
+    background-color: #fe8081;
+}
+.horario .lm {
+    background-color: #d2d26e;
+}
+.horario .sisi {
+    background-color: #65aa97;
+}
+.horario .ende {
+    background-color: #c9a0c8;
+}
+.horario .ipc {
+    background-color: #ffa160;
+}
+.horario .pi {
+    background-color: #fec997;
+}
+.horario .dia {
+    color: #287d7b;
+    font-size: 21px;
+    background-color: #f0f0f0;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .dam {
+    color: #287d7b;
+    font-size: 24px;
+    background-color: #f0f0f0;
+}
+.horario .rec {
+    color: #287d7b;
+    font-size: 21px;
+    background-color: #f0f0f0;
+}
+.horario .fl {
+    color: #287d7b;
+    font-size: 23px;
+    background-color: #f0f0f0;
+}
+.horario .pi {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .ipc {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .ende {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .sisi {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .lm {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .ipe {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .dasp {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .sasp {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .prog {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.horario .bdd {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+.formlogin {
+    float: left;
+    width: 50%;
+}
+.formregister {
+    float: right;
+    width: 50%;
+}
+.cb {
+    clear: both;
+}
+.elementoshtml {
+    background-color: aquamarine;
+    width: 50%;
+    margin: 0px auto;
+}
+.elementoshtml legend {
+    background-color: rgb(6, 6, 71);
+    color: white;
+    font-size: 22px;
+}
+.elementoshtml label {
+    background-color: #014128;
+    color: #bff3cc;
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+}
+.btn-green {
+    background-color: #014128;
+    color: #bff3cc;
+}
+.col3 {
+    width: 33.3%;
+    float: left;
+}
+.col3 img {
+    padding: 4px;
+}
+video {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
