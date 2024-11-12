@@ -11,6 +11,8 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    background-color: #e6f2ff;
+    padding: 20px;
 }
 /* For mobile: */
 @media screen and (max-width: 1000px) {
@@ -50,6 +52,10 @@ body {
 
 .col-3 {
     width: 25%;
+}
+.col-3 img {
+    width: 100px;
+    height: auto;
 }
 
 .col-4 {
@@ -101,7 +107,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px black;
     border-radius: 10px;
 }
 nav ul{
@@ -216,24 +222,24 @@ h1 {
 #listas .customdes li li li {
     list-style-type: circle;
 }
-#listas .customor li {
+#listas .customord li {
     list-style-type: upper-roman;
 }
-#listas .customor li li {
+#listas .customord li li {
     list-style-type: upper-alpha;
 }
-#listas .customor li li li {
+#listas .customord li li li {
     list-style-type: decimal;
 }
-#listas .customdesicon li li {
+#listas .customico li li {
     list-style-image: url(../img/corazon.png);
 }
-#listas .customdesicon li li li {
+#listas .customico li li li {
     list-style-image: none;
     list-style-type: circle;
 }
 
-#listas .listasdf dt {
+#listas .listadefcustom dt {
     display: inline;
     background-color: aquamarine;
     color: black;
