@@ -11,7 +11,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
-    background-color: #e6f2ff;
+    background-color: #e6f7ff;
     padding: 20px;
 }
 /* For mobile: */
@@ -54,7 +54,7 @@ body {
     width: 25%;
 }
 .col-3 img {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px lightskyblue;
     border-radius: 10px;
 }
 nav ul{
